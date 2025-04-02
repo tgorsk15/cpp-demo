@@ -15,6 +15,8 @@ int main()
     
     printDouble(response);
 
+    std::cout << add(4, 5);
+
     return 0;
 }
 
