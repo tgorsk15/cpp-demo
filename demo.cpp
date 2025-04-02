@@ -4,6 +4,21 @@
 
 using namespace std;
 
+
+int getValue();
+void printDouble(int num);
+
+int main()
+{
+
+    int response = getValue();
+    
+    printDouble(response);
+
+    return 0;
+}
+
+
 int getValue()
 {
     std::cout << "Enter an integer: ";
@@ -17,15 +32,3 @@ void printDouble(int num)
 {
     std::cout << num << " doubled is " << num * 2 << '\n';
 }
-
-int main()
-{
-
-    int response = getValue();
-    
-    printDouble(response);
-
-    return 0;
-}
-
-
