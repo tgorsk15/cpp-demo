@@ -1,3 +1,5 @@
+#include "add.hpp"
+
 #include <iostream>
 #include <vector>
 #include <string>
@@ -10,8 +12,6 @@ void printDouble(int num);
 
 int main()
 {
-
-    int add(int x, int y);
     int response = getValue();
     
     printDouble(response);

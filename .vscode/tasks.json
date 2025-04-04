@@ -13,10 +13,10 @@
                 "-Wextra",
                 "-Wconversion",
                 "-Wsign-conversion",
-                "Werror",
+                "-Werror",
                 "-pedantic-errors",
                 "-ggdb",
-                "${file}",
+                "${workspaceFolder}/*.cpp",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],
