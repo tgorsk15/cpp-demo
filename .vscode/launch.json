@@ -6,6 +6,7 @@
             "request": "launch",
             "program": "${fileDirname}/${fileBasenameNoExtension}",
             "args": [],
+            // chnage below to true when running debugger
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
             "environment": [],
